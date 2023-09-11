@@ -17,7 +17,7 @@ jobs:
       - name: Install dependencies
         run: | 
           python -m pip insteall --upgrade pip
-          pip3 insteall -3 requirements.txt
+          pip insteall -3 requirements.txt
       
       - name: Lint with flake8
         run: | 
